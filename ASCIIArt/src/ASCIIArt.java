@@ -17,11 +17,39 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void neck() {
+		System.out.println("	    | |");
+		System.out.println("	    | |");
+	}
+	public static void feet() {
+		System.out.println("   \"\"\"\"   /_| /_|    /_| /_|" + "   \"\"\"\"");
+	}
+	public static void leg() {
+		System.out.println("	   ||  ||     ||  || |");
+	}
+	public static void grass() {
+		System.out.println("\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"");
+	}
+	public static void main(String[] args) {
+		System.out.println("	 __.ii,");
+		System.out.println("	(__,\" |");
+		neck();
+		neck();
+		neck();
+		System.out.println("	    | |------------,");
+		System.out.println("	   /               \\\\");
+		System.out.println("	   |                |\\");
+		System.out.println("	   |,._  |,______\\ |||");
+		leg();
+		leg();
+		System.out.println("	   ||  ||     ||  || M");
+		System.out.println(" \"\"\"\"	   ||  ||     ||  ||     \"\"\"");
+		feet(); 
+		System.out.print(" ");
+		grass();
+		System.out.print("    ");
+		grass();
+		System.out.print("   `");
+		grass();
 	}
 }
